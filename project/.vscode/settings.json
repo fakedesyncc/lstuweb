@@ -1,0 +1,10 @@
+{
+    "intelephense.environment.includePaths": [
+        "vendor/phpoffice/phpspreadsheet/src",
+        "vendor/tecnickcom/tcpdf"
+    ],
+    "intelephense.stubs": [
+        "phpoffice",
+        "tcpdf"
+    ]
+}

@@ -1,0 +1,3 @@
+USE autosalon;
+
+ALTER TABLE cars ADD COLUMN IF NOT EXISTS image_url VARCHAR(255) NULL AFTER color;
