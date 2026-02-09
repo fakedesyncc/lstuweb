@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+    <title>Автосалон API Documentation</title>
+    <parser>
+        <target>docs/api</target>
+        <encoding>utf8</encoding>
+        <markers>
+            <item>TODO</item>
+            <item>FIXME</item>
+        </markers>
+        <extensions>
+            <extension>php</extension>
+        </extensions>
+    </parser>
+    <transformer>
+        <target>docs/html</target>
+    </transformer>
+    <files>
+        <directory>src</directory>
+    </files>
+    <transformations>
+        <transformation>
+            <transformer>twig</transformer>
+            <template>clean</template>
+            <writer>file</writer>
+        </transformation>
+    </transformations>
+</phpdoc>
